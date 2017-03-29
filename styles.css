@@ -3,6 +3,52 @@ img {
 }
 
 body {
+    font-size: 0.4em;
     text-align: center;
-    font-family: "Arial";
+    font-family: "Verdana";
+}
+
+header {
+    position: fixed; 
+    /*stays in place when I scroll*/
+    height: 100%;
+    text-align: center;
+    background: #74bcc3;
+    color: light pink;
+}
+
+header .title {
+    font-size: 2em;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+nav a:hover {
+    color: #74bcc3;
+    background: white;
+    transition-property: color, background;
+    transition-duration: .3s;
+}
+
+main {
+    margin-left: 300px;
+    margin-right: 130px;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+/*select all elements with class "section-title" */
+.section-title { 
+    border-bottom: 2px solid #74bcc3;
+}
+
+h2, h3 {
+    color: #294042;
 }
