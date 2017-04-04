@@ -3,7 +3,7 @@ img {
 }
 
 body {
-    font-size: 1em;
+    font-size: .6em;
     text-align: center;
     font-family: "Verdana";
 }
@@ -14,13 +14,15 @@ header {
     height: 100%;
     text-align: center;
     background: #74bcc3;
-    color: light pink;
+    color: black;
 }
 
 header .title {
     font-size: 2em;
     padding: 10px;
 }
+
+
 
 nav a {
     text-decoration: none;
@@ -36,8 +38,8 @@ nav a:hover {
 }
 
 main {
-    margin-left: 300px;
-    margin-right: 130px;
+    margin-left: 400px;
+    margin-right: 30px;
 }
 
 section {
