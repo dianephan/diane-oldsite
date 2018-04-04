@@ -1,6 +1,13 @@
 img {
     width: 200px;
+/*    original is 200 px */
 }
+
+/*
+.projectpics {
+    width: 100px; 
+}
+*/
 
 body {
     font-size: .6em;
@@ -15,6 +22,8 @@ header {
     text-align: center;
     background: #74bcc3;
     color: black;
+    border-image-width: auto;
+    margin-left: 60px; 
 }
 
 header .title {
@@ -22,8 +31,7 @@ header .title {
     padding: 10px;
 }
 
-
-
+/*sidebar navigation*/
 nav a {
     text-decoration: none;
     color: white;
@@ -38,12 +46,21 @@ nav a:hover {
 }
 
 main {
+/*
     margin-left: 400px;
-    margin-right: 30px;
+    margin-right: 600px;
+*/
+    background-image: url(images/grid.gif);
+    background-repeat: repeat;
+    background-size: 450px; 
 }
 
 section {
-    margin-bottom: 80px;
+    margin-left: 400px;
+    margin-right: 600px;
+    margin-bottom: 50px;
+    
+
 }
 
 /*select all elements with class "section-title" */
