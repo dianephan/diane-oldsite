@@ -1,13 +1,6 @@
 img {
     width: 200px;
-/*    original is 200 px */
 }
-
-/*
-.projectpics {
-    width: 100px; 
-}
-*/
 
 body {
     font-size: .6em;
@@ -15,7 +8,8 @@ body {
     font-family: "Verdana";
 }
 
-header {
+/*left column*/
+header{
     position: fixed; 
     /*stays in place when I scroll*/
     height: 100%;
@@ -23,7 +17,29 @@ header {
     background: #74bcc3;
     color: black;
     border-image-width: auto;
-    margin-left: 60px; 
+    margin-left: 30px; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.midcol {
+    position: fixed; 
+/*  position allows col to stay in place when I scroll*/
+    height: 100%;
+    text-align: center;
+    color: olivedrab;
+    margin-left: 320px; 
+    margin-right: 600px; 
+}
+
+div.rightcol{
+    height: 100%;
+    text-align: center;
+    color: black;
+    border-image-width: auto;
+/*    margin-right: -800px;  */
+    margin-left: 710px; 
+    margin-right: 20px; 
 }
 
 header .title {
@@ -34,9 +50,10 @@ header .title {
 /*sidebar navigation*/
 nav a {
     text-decoration: none;
-    color: white;
+    color: #E0D6E9;
     display: block;
 }
+/*can have diff navs. tested this out */
 
 nav a:hover {
     color: #74bcc3;
@@ -55,15 +72,9 @@ main {
     background-size: 450px; 
 }
 
-section {
-    margin-left: 400px;
-    margin-right: 600px;
-    margin-bottom: 50px;
-    
-
-}
 
 /*select all elements with class "section-title" */
+/*the line beneath the section title */
 .section-title { 
     border-bottom: 2px solid #74bcc3;
 }
