@@ -27,9 +27,9 @@ div.midcol {
 /*  position allows col to stay in place when I scroll*/
     height: 100%;
     text-align: center;
-    color: olivedrab;
-    margin-left: 320px; 
-    margin-right: 600px; 
+    color: darkgray;
+    margin-left: 350px; 
+    margin-right: 590px; 
 }
 
 div.rightcol{
