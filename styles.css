@@ -6,6 +6,9 @@ body {
     font-size: .6em;
     text-align: center;
     font-family: "Verdana";
+    background-image: url(images/grid.gif);
+    background-repeat: repeat;
+    background-size: 450px; 
 }
 
 /*left column*/
@@ -67,9 +70,11 @@ main {
     margin-left: 400px;
     margin-right: 600px;
 */
+/*
     background-image: url(images/grid.gif);
     background-repeat: repeat;
     background-size: 450px; 
+*/
 }
 
 
