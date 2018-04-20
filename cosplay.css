@@ -8,9 +8,12 @@ body{
 }
 
 div.gallery {
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 100px;
+    margin-right: 200px;
     border: 1px solid #ccc;
-    float: left;
+    float:right;
     width: 180px;
 }
 
@@ -41,7 +44,7 @@ div.desc {
     text-align: center;
     font-family: "Verdana";
     color: #78a5a2;
-    border: 1px solid gray;
+/*    border: 1px solid gray;*/
     width: 65%;
     background-color: #d0f0f6;
     padding: 8px;
@@ -72,4 +75,15 @@ section {
 
 p {
 	font-size: 0.5em;
+}
+
+aside{
+    position: fixed;
+    margin-top: 190px; 
+    margin-left: 22px;
+    font-size: 1em;
+    text-align: center;
+    font-family: "Verdana";
+    color: #78a5a2;
+
 }
