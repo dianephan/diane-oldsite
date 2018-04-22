@@ -58,6 +58,7 @@ nav a {
 }
 /*can have diff navs. tested this out */
 
+/*xexample of a pseudoclass used to specify a state of a selected element*/
 nav a:hover {
     color: #74bcc3;
     background: white;
@@ -86,4 +87,22 @@ main {
 
 h2, h3 {
     color: #294042;
+}
+
+div.gallery {
+/*    margin-left: 200px;*/
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/*
+div.gallery:hover {
+    border: 1px solid #777;
+}
+*/
+
+div.gallery img {
+    margin-top: center;
+    width: 180px;
+    height: auto;
 }
