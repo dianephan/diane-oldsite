@@ -38,7 +38,7 @@ div.midcol {
 div.rightcol{
     height: 100%;
     text-align: center;
-    color: black;
+    color: darkgray;
     border-image-width: auto;
 /*    margin-right: -800px;  */
     margin-left: 710px; 
