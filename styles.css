@@ -2,6 +2,11 @@ img {
     width: 200px;
 }
 
+ul {
+    text-align: left;
+    list-style-position: inside;
+}
+
 body {
     font-size: .6em;
     text-align: center;
