@@ -8,7 +8,7 @@ ul {
 }
 
 body {
-    font-size: .6em;
+    font-size: 12pt;
     text-align: center;
     font-family: "Verdana";
     background-image: url(images/grid.gif);
@@ -31,23 +31,28 @@ header{
 }
 
 div.midcol {
-    position: fixed; 
+    position: fixed;
 /*  position allows col to stay in place when I scroll*/
     height: 100%;
-    text-align: center;
-    color: darkgray;
-    margin-left: 400px; 
-    margin-right: 880px; 
+    /*text-align: center;
+    color: darkgray;*/ 
+    margin-left: 550px; 
+    margin-right: 880px;
+    max-width: 400px;
+    /*max-width will HOPEFULLY prevent the middle column from interfering with the right column */
 }
 
 div.rightcol{
+    position: fixed; 
     height: 100%;
-    text-align: center;
-    color: darkgray;
+    text-align: left;
+/*    color: darkgray;
     border-image-width: auto;
-/*    margin-right: -800px;  */
-    margin-left: 710px; 
+*/
+   // margin-right: -800px; 
+    margin-left: 1010px; 
     margin-right: 20px; 
+
 }
 
 header .title {
