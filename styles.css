@@ -43,13 +43,12 @@ div.midcol {
 }
 
 div.rightcol{
-    position: fixed; 
     height: 100%;
     text-align: left;
 /*    color: darkgray;
     border-image-width: auto;
-*/
-   // margin-right: -800px; 
+   // margin-right: -800px; */
+    
     margin-left: 1010px; 
     margin-right: 20px; 
 
