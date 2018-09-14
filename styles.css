@@ -48,9 +48,9 @@ div.rightcol{
 /*    color: darkgray;
     border-image-width: auto;
    // margin-right: -800px; */
-    
-    margin-left: 1010px; 
-    margin-right: 20px; 
+    margin-left: 970px; 
+    margin-right: 20px;
+    max-width: 400px; 
 
 }
 
