@@ -1,0 +1,55 @@
+/*
+body { 
+    padding: 100px;
+} 
+  */
+
+/*copied the display and margin code from w3schools css tutorial about alignment*/
+img {
+    align-content: center;
+    display: block;
+    margin: auto;
+}
+
+header{
+    background-color:lightsteelblue;
+    text-align: center;
+    font-family: monospace;   
+}
+
+h2{
+    font-family: sans-serif;   
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-family: monospace
+}
+
+p{
+    font-family: serif;     
+}
+
+nav a {
+    text-decoration: none;
+    color: hotpink;
+    display: block;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #74bcc3;
+    background: white;
+    transition-property: color, background;
+    transition-duration: .3s;
+}
+
+#navbar{
+    bottom:0;
+    padding-top: 0px;
+    z-index: 10;
+    margin-right: 30px;
+    margin-bottom: 80px; 
+    right: 50;
+}

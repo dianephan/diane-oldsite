@@ -1,0 +1,56 @@
+img {
+    width: 200px;
+}
+
+body {
+    font-size: .6em;
+    text-align: center;
+    font-family: "Verdana";
+}
+
+header {
+    position: fixed; 
+    /*stays in place when I scroll*/
+    height: 100%;
+    text-align: center;
+    background: #74bcc3;
+    color: black;
+}
+
+header .title {
+    font-size: 2em;
+    padding: 10px;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+nav a:hover {
+    color: #74bcc3;
+    background: white;
+    transition-property: color, background;
+    transition-duration: .3s;
+}
+
+main {
+    margin-left: 400px;
+    margin-right: 30px;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+/*select all elements with class "section-title" */
+.section-title { 
+    border-bottom: 2px solid #74bcc3;
+}
+
+h2, h3 {
+    color: #294042;
+}

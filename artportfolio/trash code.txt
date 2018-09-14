@@ -1,0 +1,43 @@
+
+    //quads in the center 
+    var lefttopx = 0; 
+    var lefttopy = height/2;
+    
+    var leftbottomx = 0; 
+    var leftbottomy = height/2 + 100; //adding y goes down 
+    
+    var righttopx = lefttopx + 200; 
+    var righttopy = lefttopy; 
+    
+    var rightbottomx = leftbottomx + 200; 
+    var rightbottomy = leftbottomy;
+    
+    
+    quad(lefttopx, lefttopy, leftbottomx, leftbottomy, righttopx, righttopy, rightbottomx, rightbottomy); 
+    
+    for (var i = 0; i < 15; i++){
+        //for (var j = 0; j < 15; j++){
+            quad(lefttopx, lefttopy, leftbottomx, leftbottomy, righttopx, righttopy, rightbottomx, rightbottomy); 
+            
+            lefttopx += 300; 
+            leftbottomx += 300; 
+            rightbottomx += 300; 
+            rightbottomy += 300;  
+        //}
+        
+    }
+    
+     
+    //center design 
+    var centy = height/2 + 58;
+    var color = 17; 
+
+    for (var h = 0; h < 15; h++){
+        for(var m = width/3; m < 1000; m++){   
+            stroke(color); 
+            ellipse(m, centy, 10); 
+            m+=15;   
+            color ++;
+        }
+        centy -=8; 
+    }
